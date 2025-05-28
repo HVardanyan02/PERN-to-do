@@ -1,0 +1,50 @@
+.input-fields {
+    display: flex;
+    flex-direction: row; /* Stack inputs vertically */
+    align-items: center; /* Center inputs horizontally */
+    gap: 20px; /* More spacing between inputs */
+    width: 100%;
+    max-width: 350px;
+    margin: auto; /* Center horizontally */
+    padding: 30px;
+}
+
+.input-fields input {
+    padding: 12px;
+    padding-left: 12px; 
+    border: none;
+    border-radius: 40px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    margin-bottom: 15px;
+  }
+
+.input-fields input::placeholder {
+    color: #b4a0a0;
+    /* font-family: 'Poppins', sans-serif;  */
+    font-size: 14px;
+    text-align: left; /* Aligns text to the left */
+  }
+
+  .sign-in-link {
+    color: #D8605B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-in-link:hover {
+    text-decoration: underline;
+}
+
+.sign-up-link {
+  color: #D8605B;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up-link:hover {
+  text-decoration: underline;
+}
